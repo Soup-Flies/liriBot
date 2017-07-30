@@ -61,7 +61,7 @@ function twitter() {
 };
 
 function spotifySong(search) {
-  spotify.search({ type: 'track', query: search }, function(err, data) {
+  spotify.search({ type: 'track', query: (search || "The Sign, Ace of Base") }, function(err, data) {
     if (err) {
       return console.log('Error occurred: ' + err);
     } else {
