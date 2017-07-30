@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.6",
     "request": "^2.81.0",
     "spotify": "^0.3.0",
     "twitter": "^1.7.1"
